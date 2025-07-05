@@ -1,0 +1,15 @@
+﻿Column Name,Description,API Field Name,Data Type
+Serial Number,Serial number,serialnumber,Number
+List Year,Year the property was listed for sale,listyear,Number
+Date Recorded,Date the sale was recorded locally,daterecorded,Floating Timestamp
+Town,Town name,town,Text
+Address,Address,address,Text
+Assessed Value,Value of the property used for local tax assesment,assessedvalue,Number
+Sale Amount,Amount the property was sold for,saleamount,Number
+Sales Ratio,Ratio of the sale price to the assessed value,salesratio,Text
+Property Type,"Type of property including: Residential, Commercial, Industrial, Apartments, Vacant, etc",propertytype,Text
+Residential Type,Indicates whether property is single or multifamily residential,residentialtype,Text
+Non Use Code,Non usable sale code typically means the sale price is not reliable for use in the determination of a property value. See attachments in the dataset description page for a listing of codes,nonusecode,Text
+Assessor Remarks,Remarks from the assessor,remarks,Text
+OPM remarks,Remarks from OPM,opm_remarks,Text
+Location,Lat / lon coordinates,geo_coordinates,Point
